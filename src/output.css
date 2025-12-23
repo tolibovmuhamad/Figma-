@@ -7,6 +7,7 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-black: #000;
     --color-white: #fff;
     --spacing: 0.25rem;
     --default-font-family: var(--font-sans);
@@ -291,6 +292,9 @@
   .h-700 {
     height: calc(var(--spacing) * 700);
   }
+  .h-\[40px\] {
+    height: 40px;
+  }
   .h-\[52px\] {
     height: 52px;
   }
@@ -318,6 +322,12 @@
   .h-\[700px\] {
     height: 700px;
   }
+  .w-37 {
+    width: calc(var(--spacing) * 37);
+  }
+  .w-37\.5 {
+    width: calc(var(--spacing) * 37.5);
+  }
   .w-125 {
     width: calc(var(--spacing) * 125);
   }
@@ -332,6 +342,9 @@
   }
   .w-165\.5 {
     width: calc(var(--spacing) * 165.5);
+  }
+  .w-180 {
+    width: calc(var(--spacing) * 180);
   }
   .w-195 {
     width: calc(var(--spacing) * 195);
@@ -383,6 +396,12 @@
   }
   .w-\[90\] {
     width: 90;
+  }
+  .w-\[150\] {
+    width: 150;
+  }
+  .w-\[150px\] {
+    width: 150px;
   }
   .w-\[500\] {
     width: 500;
@@ -441,6 +460,9 @@
   .gap-8 {
     gap: calc(var(--spacing) * 8);
   }
+  .rounded {
+    border-radius: 0.25rem;
+  }
   .rounded-\[10px\] {
     border-radius: 10px;
   }
@@ -472,6 +494,9 @@
   .border-solid {
     --tw-border-style: solid;
     border-style: solid;
+  }
+  .border-\[\#DBE1E9\] {
+    border-color: #DBE1E9;
   }
   .border-\[\#bab8b8\] {
     border-color: #bab8b8;
@@ -589,6 +614,9 @@
   }
   .text-\[white\] {
     color: white;
+  }
+  .text-black {
+    color: var(--color-black);
   }
   .text-white {
     color: var(--color-white);
