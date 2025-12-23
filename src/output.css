@@ -222,11 +222,17 @@
   .table {
     display: table;
   }
+  .h-1 {
+    height: calc(var(--spacing) * 1);
+  }
   .h-10 {
     height: calc(var(--spacing) * 10);
   }
   .h-13 {
     height: calc(var(--spacing) * 13);
+  }
+  .h-25 {
+    height: calc(var(--spacing) * 25);
   }
   .h-27 {
     height: calc(var(--spacing) * 27);
@@ -264,6 +270,9 @@
   .h-175 {
     height: calc(var(--spacing) * 175);
   }
+  .h-180 {
+    height: calc(var(--spacing) * 180);
+  }
   .h-200 {
     height: calc(var(--spacing) * 200);
   }
@@ -282,6 +291,9 @@
   .h-\[70px\] {
     height: 70px;
   }
+  .h-\[100px\] {
+    height: 100px;
+  }
   .h-\[111px\] {
     height: 111px;
   }
@@ -293,6 +305,9 @@
   }
   .h-\[700px\] {
     height: 700px;
+  }
+  .w-125 {
+    width: calc(var(--spacing) * 125);
   }
   .w-135 {
     width: calc(var(--spacing) * 135);
@@ -351,8 +366,20 @@
   .w-\[90\%\] {
     width: 90%;
   }
+  .w-\[90\] {
+    width: 90;
+  }
+  .w-\[500\] {
+    width: 500;
+  }
+  .w-\[500px\] {
+    width: 500px;
+  }
   .w-\[782px\] {
     width: 782px;
+  }
+  .w-\[fu\] {
+    width: fu;
   }
   .w-full {
     width: 100%;
@@ -383,6 +410,9 @@
   }
   .justify-center {
     justify-content: center;
+  }
+  .gap-2 {
+    gap: calc(var(--spacing) * 2);
   }
   .gap-4 {
     gap: calc(var(--spacing) * 4);
@@ -449,6 +479,9 @@
   .bg-\[\#E8F2FC\] {
     background-color: #E8F2FC;
   }
+  .bg-\[\#EAF3FD\] {
+    background-color: #EAF3FD;
+  }
   .bg-white {
     background-color: var(--color-white);
   }
@@ -506,6 +539,9 @@
   .text-\[30px\] {
     font-size: 30px;
   }
+  .text-\[36px\] {
+    font-size: 36px;
+  }
   .text-\[38px\] {
     font-size: 38px;
   }
@@ -526,6 +562,9 @@
   }
   .text-\[\#212121\] {
     color: #212121;
+  }
+  .text-\[\#707070\] {
+    color: #707070;
   }
   .text-\[3\] {
     color: 3;
@@ -592,6 +631,11 @@
   .lg\:h-77\.5 {
     @media (width >= 64rem) {
       height: calc(var(--spacing) * 77.5);
+    }
+  }
+  .lg\:h-150 {
+    @media (width >= 64rem) {
+      height: calc(var(--spacing) * 150);
     }
   }
   .lg\:w-135\.5 {
